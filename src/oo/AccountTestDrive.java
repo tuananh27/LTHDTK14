@@ -11,12 +11,6 @@ public class AccountTestDrive {
         account.withdraw();
         account.show();
 
-        account.staName();
-        account.salary();
-        account.cusName();
-        account.address();
-        account.showw();
-
  
     }
 }

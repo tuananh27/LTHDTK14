@@ -33,25 +33,5 @@ public class Account {
         System.out.println("Account balance: " + account_banlance);
     }
 
-    void staName(){
-        staName = "Nguyen Van A";
-    }
-
-    void cusName(){
-        cusName = "Nguyen Van B";
-    }
-
-    void salary(){
-        salary = 20000;
-    }
-
-    void address(){
-        address = "185/Ham Tu";
-    }
-    void showw(){
-        System.out.println("Ten nhan vien: " +staName);
-        System.out.println("Lương nhan vien: " +salary);
-        System.out.println("Ten khach hang: " +cusName);
-        System.out.println("Dia chi khach hang: " +address);
-    }
+   
 }
