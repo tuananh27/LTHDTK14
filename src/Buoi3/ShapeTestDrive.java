@@ -8,7 +8,7 @@ public class ShapeTestDrive {
 
         Triangle triangle = new Triangle("Hinh tam giac.aif");
 
-        Amoeba amoeba = new Amoeba("Hinh Amoeba.aif");
+        Amoeba amoeba = new Amoeba("Hinh Amoeba.hif");
 
        circle.rotate();
 
