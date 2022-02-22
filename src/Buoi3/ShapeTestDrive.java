@@ -10,6 +10,8 @@ public class ShapeTestDrive {
 
         Amoeba amoeba = new Amoeba("Hinh Amoeba.hif");
 
+        Amoeba amoeba2 = new Amoeba("Hinh Amoeba.hif", 5.9, 11.6);
+        
        circle.rotate();
 
        square.rotate();
@@ -17,6 +19,9 @@ public class ShapeTestDrive {
        triangle.rotate();
 
        amoeba.rotate();
+       
+       amoeba2.rotate();
+       
 
     }
 }

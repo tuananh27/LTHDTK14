@@ -2,13 +2,22 @@ package Buoi3;
 
 public class Amoeba {
     String soundFile;
+    double xPoint;
+    double yPoint;
+
+    public Amoeba(String soundFile, double xPoint, double yPoint) {
+        this.soundFile = soundFile;
+        this.xPoint = xPoint;
+        this.yPoint = yPoint;
+    }
+    
 
     public Amoeba(String soundFile) {
         this.soundFile = soundFile;
     }
 
     void rotate(){
-        System.out.println("Hinh Amoeba dang xoay 360 do...");
+        System.out.println("Hinh Amoeba dang xoay 360 do tai x: " +xPoint +  "diem y" + yPoint );
         this.playsound();
     }
 
