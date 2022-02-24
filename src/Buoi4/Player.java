@@ -1,10 +1,19 @@
 package Buoi4;
 
 public class Player {
-    int number = 0;
+    //attribute ra state
+    private int number = 0;
+
+    //method ra behavior
     public void guess(){
-        number = (int) (Math.random() * 10);
+        number = (int) (Math.random() * 10);  //đếm số từ 0 đến 9
         System.out.println("I'm guessing " + number);
     }
+
+    public int getNumber() {
+        return number;
+    }
+
+    
     
 }

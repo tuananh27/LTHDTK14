@@ -1,7 +1,10 @@
 package Buoi4;
 
 public class GuessGame {
-    Player p1, p2, p3;
+    //attribute ra state
+    private Player p1, p2, p3;
+
+    //method ra behavior
     public void startGame(){
         p1 = new Player();
         p2 = new Player();
@@ -18,11 +21,11 @@ public class GuessGame {
             p2.guess();
             p3.guess();
 
-            guessp1 = p1.number;
+            guessp1 = p1.getNumber();
             System.out.println("Player One Guess " + guessp1);
-            guessp2 = p2.number;
+            guessp2 = p2.getNumber();
             System.out.println("Player Two Guess " + guessp2);
-            guessp3 = p2.number;
+            guessp3 = p3.getNumber();
             System.out.println("Player Three Guess " + guessp3);
             if(guessp1 == targetNumber){
                 p1isRight = true;
