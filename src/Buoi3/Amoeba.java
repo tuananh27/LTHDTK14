@@ -1,9 +1,9 @@
 package Buoi3;
 
 public class Amoeba {
-    String soundFile;
-    double xPoint;
-    double yPoint;
+    private String soundFile;
+    private double xPoint;
+    private double yPoint;
 
     public Amoeba(String soundFile, double xPoint, double yPoint) {
         this.soundFile = soundFile;

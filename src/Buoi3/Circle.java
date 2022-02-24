@@ -1,7 +1,7 @@
 package Buoi3;
 
 public class Circle {
-    String soundFile;
+    private String soundFile;
 
     
 

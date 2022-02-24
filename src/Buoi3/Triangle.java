@@ -1,7 +1,7 @@
 package Buoi3;
 
 public class Triangle {
-    String soundFile;
+    private String soundFile;
 
     public Triangle(String soundFile) {
         this.soundFile = soundFile;
