@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 
+
 import Buoi8.HangThucPham;
 
 //cách đọc file đã lưu
@@ -18,7 +19,7 @@ public class ReadingObject {
         //Bước 3 reading object stream
         HangThucPham htp = (HangThucPham)objIn.readObject();
         HangThucPham htp2 = (HangThucPham)objIn.readObject();
-        
+    
 
         System.out.println(htp);
         System.out.println(htp2);

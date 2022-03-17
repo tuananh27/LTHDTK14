@@ -3,7 +3,9 @@ package Buoi10;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 import Buoi8.HangThucPham;
 // cách tạo lưu file
@@ -19,6 +21,11 @@ public class WritingObject {
         HangThucPham htp = new HangThucPham("HTP01", "Mi Hao Hao", 3_500, new Date(), new Date());
 
         HangThucPham htp2 = new HangThucPham("HTP02", "Mi Gau Do", 4_000, new Date(), new Date());
+
+        //code với abstract
+        List<HangThucPham> list = new ArrayList<>();
+        list.add(htp);
+        list.add(htp2);
 
         //Bước 3
         objOut.writeObject(htp);
