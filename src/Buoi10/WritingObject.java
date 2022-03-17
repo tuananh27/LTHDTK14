@@ -28,6 +28,7 @@ public class WritingObject {
         list.add(htp2);
 
         //Bước 3
+        objOut.writeObject(list);
         objOut.writeObject(htp);
         objOut.writeObject(htp2);
 
